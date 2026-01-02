@@ -1,7 +1,6 @@
 # monitor service app.py
 
 import os
-import sys
 from datetime import datetime
 import logging
 
