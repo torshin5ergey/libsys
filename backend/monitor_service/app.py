@@ -69,7 +69,7 @@ def check_db_connection():
             },
             'config': {k: v for k, v in config.items() if k != 'password'},
             'timestamp': datetime.now().isoformat()
-        }
+        }, 200
 
     except Exception as e:
         return {
@@ -77,7 +77,7 @@ def check_db_connection():
             'message': str(e),
             'config': {k: v for k, v in config.items() if k != 'password'},
             'timestamp': datetime.now().isoformat()
-        }
+        }, 500
 
 
 app = Flask(__name__)
