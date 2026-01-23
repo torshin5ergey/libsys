@@ -226,7 +226,7 @@ docker compose up -d --build
 </details>
 
 <details>
-<summary><code>GET	/api/genres</code> получить список всех жанров<summary>
+<summary><code>GET	/api/genres</code> получить список всех жанров</summary>
 
 **Responses:**
 - `200 OK` список жанров
